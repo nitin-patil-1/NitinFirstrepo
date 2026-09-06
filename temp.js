@@ -1,4 +1,4 @@
-```javascript
+
 const http = require("http");
 
 const PORT = 3000;
@@ -64,4 +64,4 @@ server.on("error", (err) => {
 server.listen(PORT, "0.0.0.0", () => {
     console.log("Node.js server running on port " + PORT);
 });
-```
+
